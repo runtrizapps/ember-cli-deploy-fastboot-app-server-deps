@@ -1,0 +1,35 @@
+{
+  "name": "ember-cli-deploy-fastboot-app-server-deps",
+  "version": "0.0.2",
+  "description": "An ember-cli-deploy plugin to bundle node_modules with the fastboot app deployment",
+  "keywords": [
+    "ember-addon",
+    "ember-cli-deploy-plugin"
+  ],
+  "license": "MIT",
+  "author": "",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "repository": "",
+  "scripts": {
+    "test": "node tests/runner.js && ./node_modules/.bin/eslint index.js lib/* tests/**/*-test.js"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "ember-cli": "2.13.3",
+    "ember-cli-release": "^1.0.0-beta.2",
+    "eslint": "^4.1.1",
+    "glob": "^7.1.2",
+    "mkdirp": "^0.5.1",
+    "mocha": "^3.4.2"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "ember-addon": {},
+  "dependencies": {
+    "ember-cli-deploy-plugin": "^0.2.9"
+  }
+}
